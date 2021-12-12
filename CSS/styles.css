@@ -1,0 +1,575 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #2c3634;
+  background-color: #a5bed9;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #316B83;
+  font-weight: bold;
+  padding: 3.125rem 0 6.25rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #316B83;
+  font-weight: bold;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #40514e;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 1.25rem;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #40514e;
+  text-align: justify;
+}
+
+a {
+  color: #305c6e;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a67777;
+}
+
+/* Next and Previous indicators i*/
+i {
+  color: #316B83;
+  font-size: 6rem;
+}
+
+td {
+  padding: 1.25rem;
+}
+
+/* section top-container */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.top-img {
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.name {
+  padding-bottom: 1.25rem;
+}
+
+.about {
+  text-align: justify;
+  line-height: 2;
+}
+
+/* section middle-container */
+.middle-container {
+  margin: 6.25rem 0;
+}
+
+.education-row {
+  width: 70%;
+  margin: 6.25rem auto;
+  text-align: left;
+  padding-bottom: 3.125rem;
+}
+
+.education-image {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.work-row {
+  width: 70%;
+  margin: 6.25rem auto;
+  text-align: left;
+}
+
+.work-image {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.work-dates {
+  font-weight: bold;
+}
+
+.work-name {
+  color: #305c6e;
+  font-weight: bold;
+}
+
+.work-description {
+  text-align: justify;
+  line-height: 2;
+}
+
+.internship-dates {
+  font-weight: bold;
+}
+
+.internship-description {
+  text-align: justify;
+  line-height: 2;
+}
+
+.internship {
+  padding-top: 0.625rem;
+}
+
+.education-name, .work-dates, .work-name, .internship-dates, .internship-name, .project-name {
+  font-size: 1.125rem;
+}
+
+.skills-row {
+  width: 70%;
+  margin: 6.25rem auto;
+  text-align: left;
+}
+
+.skills-img {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.tabel-skills {
+  background-color: #26404a;
+}
+
+.skills {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #cedb1f;
+  font-weight: bold;
+}
+
+.skill-description {
+  color: #cedb1f;
+  font-weight: bold;
+}
+
+.score {
+  color: #ffff;
+}
+
+.project-row {
+  width: 70%;
+  margin: 6.25rem auto;
+  text-align: left;
+}
+
+.project-image {
+  width: 30%;
+  float: left;
+  margin: 0 1.875rem 1.875rem 0;
+}
+
+.project {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.web_dev {
+  font-weight: bold;
+  padding: 1.875rem 0;
+}
+
+.python {
+  font-weight: bold;
+  padding: 1.25rem 0 1.875rem;
+}
+
+/* hobby */
+.hobby {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hobby-row {
+  width: 70%;
+  margin: 6.25rem auto;
+  text-align: left;
+}
+
+.hobby-image {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.hobby-description {
+  line-height: 2;
+}
+
+/* contact */
+.contact {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.contact-row {
+  width: 70%;
+  margin: 6.25rem auto;
+  text-align: left;
+  padding-bottom: 3.125rem;
+}
+
+.contact-image {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.contact, .hobby {
+  font-size: 2rem;
+}
+
+/* CAROUSEL-My Hobby Page */
+.myHobby {
+  padding-bottom: 6.25rem;
+}
+
+.carousel-image3 {
+  width: 31.25rem;
+  height: 25rem;
+}
+
+.carousel-image4 {
+  width: 25rem;
+  height: 37.5rem;
+}
+
+/* Contact Me Page - Styling */
+.email {
+  font-size: 2.5rem;
+  color: #316B83;
+  padding-bottom: 1.875rem;
+}
+
+.message {
+  font-size: 1.5rem;
+}
+
+.contact_details {
+  padding-bottom: 3.125rem;
+}
+
+form {
+  padding-bottom: 50px;
+}
+
+/* Footer */
+.bottom-container {
+  background-color: #316B83;
+  padding: 3.125rem 0 1.25rem;
+  color: #FFFFFF;
+  line-height: 2;
+  margin-top: 6.25rem;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0.625rem 1.25rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #D5BFBF;
+  padding-bottom: 1.25rem;
+}
+
+.footer-link:hover {
+  color: #FFFFFF;
+}
+
+.icons {
+  font-size: 0.75rem;
+  color: #D5BFBF;
+  word-spacing: 0.313rem;
+  padding-top: 1.25rem;
+}
+
+.images-source {
+  font-size: 0.75rem;
+  text-decoration: none;
+  letter-spacing: 0.313rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.images-source:hover {
+  color: #FFFFFF;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  padding-top: 5rem;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  h2, h3 {
+    padding-bottom: 50px;
+  }
+
+  .top-img {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .about {
+    text-align: justify;
+  }
+
+  .education-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .education-image {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .education {
+    text-align: center;
+  }
+
+  .work-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .work-image {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .work {
+    text-align: center;
+  }
+
+  .internship {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .skills-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .skills-img {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  table {
+    margin: 0 auto;
+  }
+
+  .skills {
+    text-align: left;
+  }
+
+  .skill-description {
+    text-align: left;
+  }
+
+  .score {
+    text-align: left;
+  }
+
+  .project-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .project-image {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .project, .web_dev, .python {
+    text-align: center;
+  }
+
+  .python {
+    padding-top: 30px;
+  }
+
+  .project-name {
+    text-align: left;
+  }
+
+  .hobby-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .hobby-image {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .hobby {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .contact-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-image {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .carousel-image3 {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .carousel-image4 {
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  i {
+    font-size: 4rem;
+  }
+
+  .gallery-section {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-img {
+    width: 45%;
+  }
+
+  .education-image {
+    width: 45%;
+  }
+
+  .work-image {
+    width: 45%;
+  }
+
+  .skills-img {
+    width: 45%;
+  }
+
+  .project-image {
+    width: 45%;
+  }
+
+  .hobby-image {
+    width: 45%;
+  }
+
+  .contact-image {
+    width: 45%;
+  }
+
+  .skill-description {
+    font-size: 14px;
+  }
+
+  .score {
+    font-size: 14px;
+  }
+
+  .carousel-image3 {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .carousel-image4 {
+    width: 150px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  i {
+    font-size: 2rem;
+  }
+
+  .gallery-section {
+    padding-top: 150px;
+  }
+
+  .contact_details {
+    font-size: 1.5rem;
+  }
+
+  .email {
+    font-size: 1rem;
+    color: #316B83;
+    padding-bottom: 1.875rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+}
